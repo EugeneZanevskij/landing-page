@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./ProductLanding.css">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="../logo-technology.png" alt="logo">
+        <nav id="nav-bar">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#inside">What's inside</a></li>
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#video">Video</a></li>
+                <li class="nav-link"><a href="#prices">Prices</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="headline" id="headline">
+            <h1 class="main-title">Pre-order for iPhone 14</h1>
+        </section>
+        <section class="inside" id="inside">
+            <h2>What’s in the Box</h2>
+            <div class="inside_box">
+                <div class="item">
+                    <img class="item_photo" src="./iPhone_back.jpg" alt="iPhone">
+                    <h4 class="description">iPhone 14 / iPhone 14 Pro</h4>
+                </div>
+                <div class="item">
+                    <img class="item_photo" src="./usbC.jpg" alt="USB-C">
+                    <h4 class="description">USB-C to Lightning Cable</h4>
+                </div>
+        </section>
+        <section class="features" id="features">
+            <h2>Key Features</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <img class="feature_photo" src="./iphone-camera.jpeg" alt="iPhone camera">
+                    <p class="description">Advanced dual-camera system <br>12MP Main | Ultra Wide</p>
+                </div>
+                <div class="feature">
+                    <img class="feature_photo" src="./iphone-battery.jpeg" alt="iPhone battery">
+                    <p class="description">Up to 26 hours video playback</p>
+                </div>
+                <div class="feature">
+                    <img class="feature_photo" src="./iphone-chip.jpeg" alt="iPhone chip">
+                    <p class="description">A15 Bionic chip with 5-core GPU</p>
+                </div>
+            </div>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/abDXzygET-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="prices" id="prices">
+            <h2>Prices of iPhone 14</h2>
+            <div class="prices_box">
+                <div class="price-item">
+                    <h4 class="price">799$</h4>
+                    <p class="description">128 GB</p>
+                </div>
+                <div class="price-item">
+                    <h4 class="price">899$</h4>
+                    <p class="description">256 GB</p>
+                </div>
+                <div class="price-item">
+                    <h4 class="price">1099$</h4>
+                    <p class="description">512 GB</p>
+                </div>
+        </section>
+        <section class="preorder">
+            <h2>Make your pre-order now</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" name="email" id="email" placeholder="Enter email">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+        <footer>
+            <span>Created by Eugene Zanevskij</span>
+        </footer>
+    </div>
+</body>
+</html>
